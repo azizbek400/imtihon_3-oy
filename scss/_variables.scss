@@ -1,0 +1,141 @@
+.variables {
+    padding: 20px 0;
+    margin-top: 150px;
+
+    .variables__list {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .variables__block {
+        max-width: 635px;
+
+        .variables__block__item {
+            font-size: 48px;
+            color: #36536B;
+            max-width: 546px;
+        }
+    }
+
+    .variables__input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+.variables__in {
+    padding: 16px 27px;
+    border-radius: 24px;
+    border: none;
+
+}
+
+.variables__button {
+    padding: 16px 26px;
+    background-color: #BA4270;
+    border-radius: 24px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .variables {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+
+        .variables__list {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .variables__block__item {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .variables {
+        padding: 10px;
+    }
+
+    .variables__input {
+        flex-direction: column;
+    }
+
+    .variables__in {
+        text-align: center;
+    }
+
+}
+
+
+
+.variables__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    background-color: #1B262F;
+    margin-top: 100px;
+}
+
+.variables__blok {
+    margin-top: 25px;
+}
+
+.variables__con {
+    margin-top: 25px;
+}
+
+.variables__ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    align-items: center;
+    text-decoration: none;
+}
+
+.variables__pay {
+    padding: 20px;
+}
+
+.variables__fotolar {
+    padding: 20px;
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .variables__container {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .variables__fotolar {
+        margin-top: 50px;
+    }
+
+    .variables__ul {
+        flex-direction: column;
+    }
+
+}
